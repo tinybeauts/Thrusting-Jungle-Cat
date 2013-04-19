@@ -1,22 +1,26 @@
 .move_x:before {
   content: url('/images/jkai/jkai1.png');
-  background-color: #BDDAAD;
+
+  
 }
 
 .move_o:before {
   content: url('/images/jkai/jkai2.png');
-  background-color: #E88D89;
+  
 }
 
 .container {
   margin: 20px auto;
   width: 900px;
-  padding: 50px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 
 }
 
 body {
+  background: #FF7796;
   background-image: url('/images/hellokitty.jpg'); 
+  background-repeat:no-repeat;
+  background-position:center; 
 }
 
 th {
@@ -25,16 +29,24 @@ th {
 
 td {
   background-color: #90FEC0;
-  font-size: 100px;
+  
   text-align: center;
-  width: 600px;
-  height: 200px;
+  width: 284px;
+  height: 284px;
   color: #F35C78;
   border-radius: 10px;
-  margin: 100px;
+
 }
 
 table{
     border-collapse: separate;
     border-spacing: 10px;
+}
+
+.move_x:after {
+  background-color: #BDDAAD;
+}
+
+.move_o td {
+  background-color: #E88D89;
 }

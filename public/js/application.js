@@ -9,12 +9,14 @@ $(document).ready(function(){
 
       if (current_player === 0) {
         $(this).addClass("move_o");
+        $(this).css('background-color', '#E88D89');
         o_moves[o_moves.length] = [$(this).parent().children().index($(this)), $(this).closest('td').parent()[0].sectionRowIndex];
         console.log(o_moves);
         current_player = 1
       }
       else {
         $(this).addClass("move_x");
+        $(this).css('background-color', '#BDDAAD');
         x_moves[x_moves.length] = [$(this).parent().children().index($(this)), $(this).closest('td').parent()[0].sectionRowIndex];
         console.log(x_moves);
         current_player = 0
