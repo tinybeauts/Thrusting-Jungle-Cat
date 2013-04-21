@@ -1,11 +1,11 @@
 .move_x:before {
-  content: url('/images/jkai/jkai1.png');
+  content: url('/images/jkai/jkai1-halo.png');
 
   
 }
 
 .move_o:before {
-  content: url('/images/jkai/jkai2.png');
+  content: url('/images/jkai/jkai2-horns.png');
   
 }
 
@@ -21,6 +21,13 @@ body {
   background-image: url('/images/hellokitty.jpg'); 
   background-repeat:no-repeat;
   background-position:center; 
+  font-family: 'Dancing Script', Georgia, Times, serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+
 }
 
 th {
@@ -35,7 +42,7 @@ td {
   height: 284px;
   color: #F35C78;
   border-radius: 10px;
-
+  box-shadow: 0px 0px 3px 3px #BDDAAD;
 }
 
 table{
